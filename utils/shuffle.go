@@ -48,9 +48,9 @@ func SortToGroups(all []string) [][]string {
 	var numGroups int
 	if lenAll < 10 {
 		numGroups = 3
-	} else if lenAll > 9 && lenAll < 13 {
+	} else if lenAll > 9 && lenAll < 15 {
 		numGroups = 4
-	} else if lenAll > 12 && lenAll < 21 {
+	} else if lenAll > 14 && lenAll < 21 {
 		numGroups = 5
 	} else {
 		numGroups = 6
